@@ -40,6 +40,10 @@ angular.module('carPoolExpenseApp')
       $scope.records = [];
     };
 
+    $scope.print = function(){
+      $window.print();
+    };
+
     $scope.records = $localStorage.records || [];
     $scope.input = $localStorage.input || {};
 
