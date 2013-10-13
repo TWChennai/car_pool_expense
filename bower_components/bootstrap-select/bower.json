@@ -1,0 +1,38 @@
+{
+  "name": "bootstrap-select",
+  "main": [
+    "bootstrap-select.css",
+    "bootstrap-select.js"
+  ],
+  "version": "1.3.5",
+  "homepage": "https://github.com/silviomoreto/bootstrap-select",
+  "authors": [
+    "silviomoreto"
+  ],
+  "keywords": [
+    "form",
+    "bootstrap",
+    "select",
+    "replacement"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "gitHead": "1082b970397daa017306fb406534090c06f135f6",
+  "readme": "bootstrap-select\r\n================\r\n\r\nA custom select / multiselect for @twitter bootstrap using button dropdown, designed to behave like regular Bootstrap selects;\r\n\r\n## Demo and Documentation\r\n\r\nSee an  example [here](http://silviomoreto.github.com/bootstrap-select/).\r\n\r\n## Authors\r\n\r\n[Silvio Moreto](http://github.com/silviomoreto),\r\n[Ana Carolina](http://github.com/anacarolinats),\r\n[caseyjhol](https://github.com/caseyjhol), and\r\n[Matt Bryson](https://github.com/mattbryson).\r\n\r\n## Usage\r\n\r\nCreate your `<select>` with the `.selectpicker` class.\r\n\r\n    <select class=\"selectpicker\">\r\n      <option>Mustard</option>\r\n      <option>Ketchup</option>\r\n      <option>Barbecue</option>\r\n    </select>\r\n    \r\nEnable Bootstrap-Select via JavaScript:\r\n\r\n    $('.selectpicker').selectpicker();\r\n\r\nOr just\r\n\r\n    $('select').selectpicker();\r\n\r\nCheckout the [documentation](http://silviomoreto.github.com/bootstrap-select/) for further information.\r\n\r\n## Bugs and feature requests\r\n\r\nAnyone and everyone is welcome to contribute. Please take a moment to\r\nreview the [guidelines for contributing](CONTRIBUTING.md). Make sure you're using the latest version of bootstrap-select before submitting an issue.\r\n\r\n* [Bug reports](CONTRIBUTING.md#bugs)\r\n* [Feature requests](CONTRIBUTING.md#features)\r\n\r\n## Copyright and license\r\n\r\nCopyright (C) 2013 bootstrap-select\r\n\r\nLicensed under the MIT license.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\r\n",
+  "readmeFilename": "README.md",
+  "_id": "bootstrap-select@1.3.5",
+  "description": "bootstrap-select\r ================",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/silviomoreto/bootstrap-select.git"
+  }
+}
